@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculadora simples</h1>
+    <section id="principal">
+        <button id="limpar">C</button>
+        <input type="text" id="campo">
+        <div>
+            <button class="charkey" data-value="(">(</button>
+            <button class="charkey" data-value=")">)</button>
+            <button class="charkey" data-value="/">/</button>
+            <button class="charkey" data-value="*">*</button>
+            <button class="charkey" data-value="-">-</button>
+            <button class="charkey" data-value="+">+</button>
+            <button class="charkey" data-value="0">0</button>
+            <button class="charkey" data-value="1">1</button>
+            <button class="charkey" data-value="2">2</button>
+            <button class="charkey" data-value="3">3</button>
+            <button class="charkey" data-value="4">4</button>
+            <button class="charkey" data-value="5">5</button>
+            <button class="charkey" data-value="6">6</button>
+            <button class="charkey" data-value="7">7</button>
+            <button class="charkey" data-value="8">8</button>
+            <button class="charkey" data-value="9">9</button>
+            <button id="igual">=</button>
+        </div>
+        <section id="result">
+            <button id="copiar">Copiar</button>
+            <input type="text" id="resultado" disabled>
+        </section>  
+    <script src="script.js"></script>
+</body>
+</html>

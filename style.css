@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: yellowgreen;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #6AE5EB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+svg{
+    height: 30px;
+    color: white;
+}
+#principal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    width: 600px;
+}
+
+.charkey, #igual, #limpar{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+#copiar{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: #E64339;
+    transition-duration: 0.7s;
+    border-radius: 20px;
+}
+
+#copiar:hover{
+    transition-duration: 0.7s;
+    border-radius: 20px;
+}
+
+#copiar:focus{
+    background-color: green;
+}
+
+#igual:hover{
+    background-color: #E64339;
+    transition-duration: 0.7s;
+    border-radius: 20px;
+}
+
+#limpar:hover{
+    background-color: #E64339;
+    transition-duration: 0.7s;
+    border-radius: 20px;
+}
+
+#resultado{
+    font-size: 50px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+#campo{
+    font-size: 50px;
+    height: 60px;
+    width: 89%;
+}
+
+#result{
+    display: flex;
+}
+@media(max-width: 642px){
+    #principal{
+        width: 100%;
+    }
+}
+
+@media(max-width: 586px){
+    h1{
+        margin-top: 50px;
+    }
+}
