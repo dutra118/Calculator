@@ -108,3 +108,23 @@ button:hover{
         margin-top: 50px;
     }
 }
+
+@media(max-width: 412px){
+    #copiar{
+        width: 60px;
+    }
+    #resultado{
+        width: 80%;
+    }
+}
+
+@media(max-width: 280px){
+    h1{
+        font-size: 30px;
+        
+    }
+    #principal{
+        height: 70%;
+        top: 55%;
+    }
+}
